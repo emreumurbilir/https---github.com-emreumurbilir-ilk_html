@@ -1,6 +1,5 @@
 <h1 id="top">İlk HTML</h1>
 <!-- Açıklama bölümü -->
-<h2>Deneme</h2>
 <!-- Ctrl-Ö'ye basınca direkt açıklama kısmı açılıyor. Eğer bir kod önünde bunu yaparsan, o kodu açıklama satırı içine alır -->
 <!-- <h3>Açıklama satırı</h3> -->
 <!-- Açıklama satırı kullanmak, hem kendimiz hem dosyada çalışacak yazılımcılar için önemli. Unutmamalı -->
@@ -12,11 +11,35 @@
 
 <h2>HTML</h2>
 <h3>Başlıklar ve Paragraflarla Çalışmak</h3>
-<p>dasdsadsadsadsadasd</p>
-<p>asdsadsadsa</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, expedita?</p>
+<p>Blanditiis nulla illum et ratione, accusantium vero eius distinctio accusamus.</p>
+<p>Blanditiis, ea? Iste minima soluta, nisi eveniet vitae alias architecto.</p>
 
-<p>asdsadsadddd</p>
+<h2>Span ve Div kullanımı</h2>
+<!-- 
+    Span, örneğin yazı içinde bir yeri inline element-kutuya alıyorsa Div, arasına aldığı tüm kısmı Block içine almış oluyor yani Block elemente çeviriyor. Div, yeni bir block yarattığı için alt satıra alıyor. Span ve Div kullanımı örnekleri aşağıda yer alıyor. Örnekteki paragraf içinde div kullanımı yanlış, sadece nasıl işlediğini anlatmak için yapıldı. Doğrusu, yeni paragrafla alt satıra almalıydık.
+    
+    Div, belli yapıları bir araya getirmek için kullanılıyor. Span'ı belli yapı içinde sadece bir yere özellik vermek için kullanılıyor.
 
+
+    Inline ve block elementler listesine, https://htmlreference.io/ adresinden bakabilirsin.
+ -->
+
+    <p>Span:
+    Lorem ipsum dolor sit amet consectetur <span style="color: red">adipisicing elit</span>. Iure, tempora.
+    </p>
+    
+    <P> Div:
+        Lorem ipsum dolor
+        <Div>
+        sit amet consectetur adipisicing elit. Nisi, earum?
+        </Div>
+    </P>
+
+<!-- hr kullanımı
+    hr, bir çizgi çekiyor
+-->
+<hr>
 <h2>Linklerle Çalışmak</h2>
 <!--
     - başka web sitesine git
@@ -28,6 +51,8 @@
     href="Gidilecek yer adresi" devamında tıklanacak yeri kullanıcıya sunuyoruz
 
      img tagını kullanırken "title" niteliği ile kullanırsanız hem mouse resmin üzerindeyken bilgilendirici bir metin koymuş olursunuz hem de SEO açısından faydalı olur.
+
+     <a href="#" yazarsak, sonraki metnin veya görselin link olacağını belirtmiş oluyoruz. Sonradan linki buraya yazabiliriz, böylece bu metne link vereceğimizi unutmayız.  
 
 
   -->
@@ -269,17 +294,17 @@ ul>li.item$*4 $ koyunca itemdan soraya numara atıyor
 <img src="https://picsum.photos/200/300" alt="Lorem photo">
 
 <h2>Bundan sonra harddiskten foto</h2>
-<img width="400" height="200" src="images/494-200x300.jpg" alt="Harddisk" border="15" align="left">
+<div>
+<img width="400" height="200" src="images/494-200x300.jpg" alt="Harddisk" border="15">
+</div>
 
-<br>
-
+<div>
 <h2>Diğer görsel</h2>
 
 <a href="http://www.google.com">
-    <img width="400" height="200" src="images/494-200x300.jpg" alt="Harddisk" border="15">
+    <img width="400" height="200" src="images/494-200x300.jpg" alt="Harddisk" border="15" title="Google">
 </a>
-
-<br>
+</div>
 
 
 

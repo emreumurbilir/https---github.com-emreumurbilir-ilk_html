@@ -1,9 +1,15 @@
-<h1>İlk HTML</h1>
+<h1 id="top">İlk HTML</h1>
 <!-- Açıklama bölümü -->
 <h2>Deneme</h2>
 <!-- Ctrl-Ö'ye basınca direkt açıklama kısmı açılıyor. Eğer bir kod önünde bunu yaparsan, o kodu açıklama satırı içine alır -->
 <!-- <h3>Açıklama satırı</h3> -->
 <!-- Açıklama satırı kullanmak, hem kendimiz hem dosyada çalışacak yazılımcılar için önemli. Unutmamalı -->
+
+<!-- 
+    MDN Referance: Etiketin üstüne gelince MDN referance diye bir yer çıkıyor. Ona tıklayınca o etiketin kullanımlarıyla ilgili tüm açıklamaların bulunduğu internet sitesi açılıyor. 
+-->
+
+
 <h2>HTML</h2>
 <h3>Başlıklar ve Paragraflarla Çalışmak</h3>
 <p>dasdsadsadsadsadasd</p>
@@ -11,7 +17,53 @@
 
 <p>asdsadsadddd</p>
 
-<p>sdsadsadsadsadsadsadsadasdasdas</p>
+<h2>Linklerle Çalışmak</h2>
+<!--
+    - başka web sitesine git
+    - başka bir sayfaya git
+    - aynı sayfa içinde bir yere git (ID bilgisine git)
+    - mail at
+    - telefon et
+
+    href="Gidilecek yer adresi" devamında tıklanacak yeri kullanıcıya sunuyoruz
+
+     img tagını kullanırken "title" niteliği ile kullanırsanız hem mouse resmin üzerindeyken bilgilendirici bir metin koymuş olursunuz hem de SEO açısından faydalı olur.
+
+
+  -->
+
+<ul>
+    <li>
+        <a href="https://kodluyoruz.org" target="_blank">
+            Buraya gidilecek 
+        </a>
+    </li>
+    <li>
+        <a href="iletisim.html"target="_self">
+            İletişim sayfasına git.
+        </a>
+    </li>
+    <li>
+        <a href="#footer">
+            Sayfa sonuna git
+        </a>
+    </li>
+    <li>
+        <a href="mailto:info@kodluyoruz.org">
+            Kodluyoruz'a e-posta gönder
+        </a>
+    </li>
+    <li>
+        <a href="tel:+09053006684">
+            Telefon aç.
+        </a>
+    </li>
+</ul>
+
+
+<a href="https://www.google.com" target="_blank">
+    <img width="100" height="150" src="images/494-200x300.jpg" alt="Google" border="1" title="Google">
+</a>
 
 <h3>Listeler</h3>
 <!-- 
@@ -217,13 +269,17 @@ ul>li.item$*4 $ koyunca itemdan soraya numara atıyor
 <img src="https://picsum.photos/200/300" alt="Lorem photo">
 
 <h2>Bundan sonra harddiskten foto</h2>
-<img width="400" height="200" src="images/494-200x300.jpg" alt="Harddisk" border="15" align="right">
+<img width="400" height="200" src="images/494-200x300.jpg" alt="Harddisk" border="15" align="left">
+
+<br>
+
+<h2>Diğer görsel</h2>
 
 <a href="http://www.google.com">
-    <img width="400" height="200" src="images/494-200x300.jpg" alt="Harddisk" border="15" align="left">
+    <img width="400" height="200" src="images/494-200x300.jpg" alt="Harddisk" border="15">
 </a>
 
-
+<br>
 
 
 
@@ -231,3 +287,9 @@ ul>li.item$*4 $ koyunca itemdan soraya numara atıyor
 
 
 <h2>Bootstrap</h2>
+
+<h2 id="footer">En alt kısım</h2>
+<p>Lorem ipsum dolor sit amet.</p>
+<a href="#top">
+    Sayfa başına git.
+</a>

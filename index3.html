@@ -1,0 +1,70 @@
+<!-- !+TAB'a basınca, genel web sayfası etikteleri otomatik oluşturuluyor. -->
+
+<!DOCTYPE html> 
+<html lang="tr"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic (Anlamlandırılmış)</title>
+</head>
+<body>
+    <!-- Üstteki navigasyon bölümü için div yerine nav kullanılabilir -->
+    <nav>
+        <ul>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Ipsum, necessitatibus animi!</li>
+            <li>Sapiente, dolor consequuntur.</li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Left section ile ana orta çıktının yer alacağı bölümün yer aldığı div'i main olarak adlandırıyoruz -->
+   <main>
+        <!-- Side (Left) Section'un içeriğinin yer aldığı div etiketini aside ile değiştiriyoruz.  -->
+        <aside>
+            <h2>Side Bar</h2>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Architecto, non.</li>
+                <li>Quas, tenetur?</li>
+                <li>Debitis, harum?</li>
+            </ul>        
+        </aside>
+        <!-- 
+            (div>h1>lorem1^p*2>lorem5)*3
+        -->
+        <!-- 
+            Orta bölme div'i section ile
+            Orta bölme içindeki div'leri de article ile değiştirdik. 
+         -->
+        <section>
+            <article>
+                <h1>Lorem.</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Amet odit nesciunt excepturi debitis?</p>
+            </article>
+            <article>
+                <h1>Vero?</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Rem ratione repellendus sit minima?</p>
+            </article>
+            <article>
+                <h1>Cupiditate.</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Perferendis dolorum sapiente quisquam ab?</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer'ı da div'den footer'a çeviriyoruz  -->
+    <footer>
+        <h1>
+            Footer
+        </h1>
+        <p>Lorem, ipsum dolor.</p>
+    </footer>        
+
+</body>
+</html>
